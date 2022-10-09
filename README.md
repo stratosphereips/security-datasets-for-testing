@@ -1,2 +1,4 @@
-# repository-template
-This repository is a template with basic elements that every repository at Stratosphere should follow.
+# Stratosphere Security Datasets for Testing
+
+This repository contains a set of security datasets for testing of tools and algorithms.
+
