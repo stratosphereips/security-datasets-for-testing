@@ -20,3 +20,7 @@ git submodule update --init --recursive --remote
 ## Contribute
 
 Create an issue with the dataset you would like to add and we will process it.
+
+## Authors
+
+This repository is maintained by Veronica Valeros <veronica.valeros@aic.fel.cvut.cz>. The Stratosphere datasets were created at the Stratosphere Research Laboratory, AIC, FEE, Czech Technical University in Prague.
