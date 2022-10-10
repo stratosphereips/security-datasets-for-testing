@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2021-04-28-16-25-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1596790164.509987	Cr01B21ezPdgDs60pb	10.8.0.61	35740	8.8.8.8	53	udp	1242	0.017912	infinitedata-pa.googleapis.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	172.217.23.202	299.000000	F
+#close	2021-04-28-16-25-22
