@@ -1,4 +1,4 @@
-# 003-zeek-scenario-malicious
+# 004-zeek-scenario-ssh
 
 - Source: https://mcfp.felk.cvut.cz/publicDatasets/Android-Mischief-Dataset/AndroidMischiefDataset_v2/RAT01_AndroidTester/
 - Notes:
