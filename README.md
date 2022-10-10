@@ -16,3 +16,7 @@ To update the content of the submodule run the following command at the root of 
 ```bash
 git submodule update --init --recursive --remote
 ```
+
+## Contribute
+
+Create an issue with the dataset you would like to add and we will process it.
