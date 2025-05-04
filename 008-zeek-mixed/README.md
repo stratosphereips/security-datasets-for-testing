@@ -8,10 +8,11 @@ It was done in the Stratosphere Laboratory, Czech Technical University in Prague
 
 There are six more days that are included separatedly in this repository.
 
+# Format
+Zeek logs
 
 ## Labels
 The capture was supposedly only benign when it was done, but the computer was connected to the Internet so it was attacked. Therefore we label all those attacks correctly.
 
 The labels are assigned per-flow following the rules described in the file `labels.config` and the program [NetflowLabeler](https://github.com/stratosphereips/netflowlabeler).
-
 
