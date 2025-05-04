@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2017-03-01-14-28-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason	label	detailedlabel
+#types	time	string	addr	port	addr	port	enum	string	string	string	string
+3682.962967	CkQqMUqRvE11DtzPi	192.168.1.130	5353	224.0.0.251	5353	udp	DNS	DNS_Conn_count_too_large	Background	(empty)
+3910.199005	CQjMz647jjWjQmbxjk	192.168.1.130	5353	224.0.0.251	5353	udp	DNS	DNS_Conn_count_too_large	Background	(empty)
+60704.886712	CHM9WY1BbPhZJULxqb	192.168.1.130	5353	224.0.0.251	5353	udp	DNS	DNS_Conn_count_too_large	Background	(empty)
+74933.199313	CY6XTW0cYIuDpvhMi	192.168.1.130	5353	224.0.0.251	5353	udp	DNS	DNS_Conn_count_too_large	Background	(empty)
+#close	2017-03-01-14-37-48
