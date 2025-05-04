@@ -1,0 +1,64 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2022-06-17-00-00-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	label	detailedlabel
+#types	time	string	addr	port	addr	port	string	string	bool	string	string	string
+1655076450.728560	Ceh7FuPxUA4W0dQS1	144.172.70.83	8943	147.32.81.167	5353	DNS_Conn_count_too_large	-	F	bro	Malicious	External-Attack-to-Device
+1655079699.190141	C76Y0K1sWyF8dfxXy8	147.32.81.167	62903	91.228.165.43	80	line_terminated_with_single_CR	-	F	bro	Benign	ESET
+1655080900.467099	CF4tQi4uOzoEYXNZK2	147.32.81.167	62930	91.228.165.44	80	line_terminated_with_single_CR	-	F	bro	Benign	ESET
+1655081971.376407	CeDvDw2AIhsBItBx6	147.32.81.167	62940	51.104.162.168	443	possible_split_routing	-	F	bro	Benign	Microsoft
+1655081971.413292	CeDvDw2AIhsBItBx6	147.32.81.167	62940	51.104.162.168	443	data_before_established	-	F	bro	Benign	Microsoft
+1655083591.842842	CGqhkQ1T5HbIXDpvj4	43.154.189.67	8081	147.32.81.167	5353	DNS_Conn_count_too_large	-	F	bro	Malicious	External-Attack-to-Device
+1655084018.370224	C9uPcB3wzvSTajshzc	147.32.81.167	62981	162.125.19.9	443	data_before_established	-	F	bro	Benign	Dropbox
+1655084678.752012	C9uPcB3wzvSTajshzc	147.32.81.167	62981	162.125.19.9	443	data_before_established	-	F	bro	Benign	Dropbox
+1655084999.101614	CXJTir4PaqmwzZGpZd	147.32.81.167	62997	51.104.162.168	443	data_before_established	-	F	bro	Benign	Microsoft
+1655085761.147432	CTHSaK1zPH1ceak3m1	147.32.81.167	1434	198.245.53.213	5353	DNS_Conn_count_too_large	-	F	bro	Background	(empty)
+1655085899.244163	CU8v5l2aKLm9R95rx3	147.32.81.167	63012	51.104.162.168	443	data_before_established	-	F	bro	Benign	Microsoft
+1655087569.315042	C5HbSx4SMfhvf0kTZe	147.32.81.167	63032	20.54.110.119	443	possible_split_routing	-	F	bro	Benign	Microsoft
+1655087569.315042	C5HbSx4SMfhvf0kTZe	147.32.81.167	63032	20.54.110.119	443	data_before_established	-	F	bro	Benign	Microsoft
+1655087737.179004	Czmn2UEUNaqfVolb1	147.32.81.167	63041	162.125.19.9	443	possible_split_routing	-	F	bro	Benign	Dropbox
+1655087737.181886	Czmn2UEUNaqfVolb1	147.32.81.167	63041	162.125.19.9	443	data_before_established	-	F	bro	Benign	Dropbox
+1655088340.941575	Czmn2UEUNaqfVolb1	147.32.81.167	63041	162.125.19.9	443	data_before_established	-	F	bro	Benign	Dropbox
+1655089480.726239	ChHJfA3azkjprQCiZa	147.32.81.167	63064	20.190.159.0	443	possible_split_routing	-	F	bro	Benign	Microsoft
+1655089480.937756	ChHJfA3azkjprQCiZa	147.32.81.167	63064	20.190.159.0	443	data_before_established	-	F	bro	Benign	Microsoft
+1655089481.386292	C29aVvOw0PNyTuPq6	147.32.81.167	63065	52.182.143.211	443	possible_split_routing	-	F	bro	Benign	Microsoft
+1655089481.388165	C29aVvOw0PNyTuPq6	147.32.81.167	63065	52.182.143.211	443	data_before_established	-	F	bro	Benign	Microsoft
+1655090434.402332	CBFCyzrpPuo7tlTv1	184.105.247.220	45457	147.32.81.167	80	possible_split_routing	-	F	bro	Malicious	External-Attack-to-Device
+1655090434.402332	CBFCyzrpPuo7tlTv1	184.105.247.220	45457	147.32.81.167	80	data_before_established	-	F	bro	Malicious	External-Attack-to-Device
+1655091207.708373	CNcwpZ1xsu8mQ5g505	147.32.81.167	63088	20.189.173.14	443	data_before_established	-	F	bro	Benign	Microsoft
+1655091447.340749	Cg9LiM2j9PguRJllAg	64.62.197.152	35815	147.32.81.167	80	data_before_established	-	F	bro	Malicious	External-Attack-to-Device
+1655091572.360866	C5QSzj3fRiape1HJE	147.32.81.167	63095	20.189.173.7	443	possible_split_routing	-	F	bro	Benign	Microsoft
+1655091572.360866	C5QSzj3fRiape1HJE	147.32.81.167	63095	20.189.173.7	443	data_before_established	-	F	bro	Benign	Microsoft
+1655092908.425904	CAxAES3t50XDN2U2qb	147.32.81.167	63116	20.54.24.246	443	possible_split_routing	-	F	bro	Benign	Microsoft
+1655092908.462313	CAxAES3t50XDN2U2qb	147.32.81.167	63116	20.54.24.246	443	data_before_established	-	F	bro	Benign	Microsoft
+1655094000.540748	CqZ0DS1AiJA8A8vANi	147.32.81.167	63134	51.104.162.168	443	data_before_established	-	F	bro	Benign	Microsoft
+1655094277.767874	CaLDdF35m2jaNuu0Ed	147.32.81.167	63137	162.125.19.130	443	possible_split_routing	-	F	bro	Benign	Dropbox
+1655094881.689656	C3zj5i4u2e2bC3ggcg	147.32.81.167	63146	20.189.173.2	443	data_before_established	-	F	bro	Benign	Microsoft
+1655095159.757675	CITfP013K61oXyaLn8	147.32.81.167	63151	52.140.118.28	443	possible_split_routing	-	F	bro	Benign	Microsoft
+1655095159.757675	CITfP013K61oXyaLn8	147.32.81.167	63151	52.140.118.28	443	data_before_established	-	F	bro	Benign	Microsoft
+1655095161.105489	CmckEc246sNwXgp7U5	147.32.81.167	63152	52.140.118.28	443	possible_split_routing	-	F	bro	Benign	Microsoft
+1655095161.105506	CmckEc246sNwXgp7U5	147.32.81.167	63152	52.140.118.28	443	data_before_established	-	F	bro	Benign	Microsoft
+1655095180.991376	CRb9Z33cLMWJxEXghl	147.32.81.167	63155	162.125.19.9	443	data_before_established	-	F	bro	Benign	Dropbox
+1655095336.418179	Cbj3lO1HvJ84ICZmc	147.32.81.167	63157	91.228.167.26	80	inflate_failed	-	F	bro	Benign	ESET
+1655095611.605937	CzLdElAWB4JuhiYZ5	147.32.81.167	63162	20.54.24.231	443	possible_split_routing	-	F	bro	Benign	Microsoft
+1655095837.537242	CRb9Z33cLMWJxEXghl	147.32.81.167	63155	162.125.19.9	443	data_before_established	-	F	bro	Benign	Dropbox
+1655096552.524335	Cwo1hk4tJXuTGzlXcg	147.32.81.167	63177	93.184.220.29	80	possible_split_routing	-	F	bro	Benign	Cert-Validation
+1655097506.333386	CfNXhX5EuDAnpPOt8	103.137.89.38	18095	147.32.81.167	8081	active_connection_reuse	-	F	bro	Malicious	External-Attack-to-Device
+1655098350.930665	CwAEtk2l1ZmdYpbU54	193.123.104.11	8080	147.32.81.167	5353	DNS_Conn_count_too_large	-	F	bro	Malicious	External-Attack-to-Device
+1655098480.814290	Ce083y4mpyjACyA2ve	147.32.81.167	63210	52.182.143.210	443	data_before_established	-	F	bro	Benign	Microsoft
+1655100252.536587	Cl63oh2OVwNQ1li2E3	147.32.81.167	53	45.133.193.242	39669	DNS_Conn_count_too_large	-	F	bro	Background	(empty)
+1655100459.637765	CDU6di3fJgANKFN7wj	147.32.81.167	63238	91.228.166.46	80	possible_split_routing	-	F	bro	Benign	ESET
+1655100459.637765	CDU6di3fJgANKFN7wj	147.32.81.167	63238	91.228.166.46	80	data_before_established	-	F	bro	Benign	ESET
+1655102948.950314	CSRkht4GJ5iISuAqYd	220.176.160.119	44581	147.32.81.167	9999	active_connection_reuse	-	F	bro	Malicious	External-Attack-to-Device
+1655105499.456119	CXEqj91pGgNxTHAUs9	147.32.81.167	63311	162.125.19.130	443	possible_split_routing	-	F	bro	Benign	Dropbox
+1655105718.015272	CLAA4I3tN3RWeHZf2	45.56.85.145	47628	147.32.81.167	443	binpac exception: out_of_bound: SSLRecord:length: 13 > 9	-	F	bro	Malicious	External-Attack-to-Device
+1655106460.799972	CF7vj246gDmnrtifjj	147.32.81.167	63329	162.125.19.130	443	possible_split_routing	-	F	bro	Benign	Dropbox
+1655107313.527403	CFz2iO21bT0T0U5dOh	147.32.81.167	63349	20.54.24.231	443	possible_split_routing	-	F	bro	Benign	Microsoft
+1655107497.571669	CqYrmz1Xjlxx3goYg	147.32.81.167	63355	13.89.178.27	443	data_before_established	-	F	bro	Benign	Microsoft
+1655108378.007317	CnfE7512KyRQtNmBe9	147.32.81.167	63365	162.125.19.9	443	data_before_established	-	F	bro	Benign	Dropbox
+1655108979.756246	CnfE7512KyRQtNmBe9	147.32.81.167	63365	162.125.19.9	443	data_before_established	-	F	bro	Benign	Dropbox
+1655109579.268235	ClKf5s2KwjvsvnQb7i	147.32.81.167	63384	91.228.166.14	80	possible_split_routing	-	F	bro	Benign	ESET
+1655109579.270305	ClKf5s2KwjvsvnQb7i	147.32.81.167	63384	91.228.166.14	80	data_before_established	-	F	bro	Benign	ESET
