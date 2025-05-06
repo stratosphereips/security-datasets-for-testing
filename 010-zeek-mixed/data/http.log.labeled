@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2022-06-17-00-00-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types	label	detailedlabel
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	string	string
+1655192702.850011	C6Oea8ofyVe3dca17	147.32.83.234	62112	13.107.4.52	80	1	GET	www.msftconnecttest.com	/connecttest.txt	-	Microsoft NCSI	0	22	200	OK	-	-	-	(empty)	-	-	-	-	-	F7Znbm1TCxo0VB4HL1	text/plain	Benign	Microsoft
+1655201743.720352	CVGCyR2gMKCphQEgoh	147.32.83.234	64866	2.16.2.49	80	1	GET	emdl.ws.microsoft.com	/emdl/d/dod/ph/prod5/msdownload/update/software/defu/2022/06/1024/am_delta_patch_1.367.1526.0_a5edced53b620741d6901279eab357d0eace66be.exe.json	-	Microsoft-Delivery-Optimization/10.1	0	314	200	OK	-	-	-	(empty)	-	-	-	-	-	FojLub4drBeXNfitDk	text/json	Background	(empty)
+1655210134.308561	CO5KBpp0ALKTJqhx5	147.32.83.234	65364	93.184.220.29	80	1	GET	ocsp.digicert.com	/MFEwTzBNMEswSTAJBgUrDgMCGgUABBTfqhLjKLEJQZPin0KCzkdAQpVYowQUsT7DaQP4v0cB1JgmGggC72NkK8MCEAcXeREAXSJn9oiS9o+LUFg=	-	Microsoft-CryptoAPI/10.0	0	471	200	OK	-	-	-	(empty)	-	-	-	-	-	Fgec6l4ZQkxoUW2WLj	application/ocsp-response	Benign	Cert-Validation
+1655212310.923251	CKAtx52hDeOSUO3ra3	184.105.247.215	50536	147.32.83.234	80	1	GET	www.youporn.com	/	-	-	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-	Malicious	External-Attack-to-Device
+1655212636.480419	C9x7Vj4Ohc1hE8lceg	65.49.20.81	58060	147.32.83.234	80	1	GET	www.youporn.com	/	-	-	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-	Malicious	External-Attack-to-Device

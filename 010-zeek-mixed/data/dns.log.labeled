@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2022-06-17-00-00-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected	ans_query	label	detailedlabel
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool	vector[string]	string	string
+1655159382.670825	C6cDXKqAZTGbOppsa	131.159.25.7	46791	147.32.83.234	53	udp	44557	www.google.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F	-	Malicious	External-Attack-to-Device
+1655159382.670828	C6cDXKqAZTGbOppsa	131.159.25.7	46791	147.32.83.234	53	udp	44557	www.google.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F	-	Malicious	External-Attack-to-Device
+1655161425.853405	CBfpQr2AoY9UYWesTf	129.250.206.86	15052	147.32.83.234	53	udp	21482	da691aa3.openresolverproject.org	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F	-	Malicious	External-Attack-to-Device
+1655161425.853408	CBfpQr2AoY9UYWesTf	129.250.206.86	15052	147.32.83.234	53	udp	21482	da691aa3.openresolverproject.org	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F	-	Malicious	External-Attack-to-Device
+1655161977.833135	CB2Hkx3AUrAeDIDavc	92.118.160.25	57560	147.32.83.234	53	udp	13551	version.bind	3	C_CHAOS	16	TXT	-	-	F	F	T	F	0	-	-	F	-	Malicious	External-Attack-to-Device
+1655161977.833138	CB2Hkx3AUrAeDIDavc	92.118.160.25	57560	147.32.83.234	53	udp	13551	version.bind	3	C_CHAOS	16	TXT	-	-	F	F	T	F	0	-	-	F	-	Malicious	External-Attack-to-Device
+1655163779.162153	CSebv73EELgdhtRpxl	210.89.161.19	3939	147.32.82.28	53	udp	27546	dhcp-83-234.felk.cvut.cz	-	-	-	-	0	NOERROR	T	F	F	F	0	147.32.83.234	6400.000000	F	dhcp-83-234.felk.cvut.cz	(empty)	(empty)
+1655163779.162155	CSebv73EELgdhtRpxl	210.89.161.19	3939	147.32.82.28	53	udp	27546	dhcp-83-234.felk.cvut.cz	-	-	-	-	0	NOERROR	T	F	F	F	0	147.32.83.234	6400.000000	F	dhcp-83-234.felk.cvut.cz	(empty)	(empty)

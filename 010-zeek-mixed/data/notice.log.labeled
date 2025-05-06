@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2022-06-17-00-00-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude	label	detailedlabel
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	set[enum]	interval	bool	string	string	string	double	double	string	string
+1655192704.004094	CRXJTg2ss4SKGQVhP3	147.32.83.234	62113	52.143.86.214	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (unable to get local issuer certificate)	CN=*.prod.do.dsp.mp.microsoft.com,OU=DSP,O=Microsoft,L=Redmond,ST=WA,C=US	147.32.83.234	52.143.86.214	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	Benign	Microsoft
+1655207666.113925	C1ii1k1kgwiLEzuXD2	147.32.83.234	55579	130.61.120.170	10000	-	-	-	udp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (self signed certificate)	CN=TODO-APP-NAME TODO-APP-VERSION	147.32.83.234	130.61.120.170	10000	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	Background	(empty)
