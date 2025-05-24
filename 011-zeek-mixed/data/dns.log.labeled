@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2022-06-17-00-00-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected	ans_query	label	detailedlabel
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool	vector[string]	string	string
+1655075784.881635	CF4Glr3mxONH0hS8Db	210.89.161.19	2787	147.32.82.28	53	udp	51877	dhcp-83-234.felk.cvut.cz	1	C_INTERNET	1	A	0	NOERROR	T	F	F	F	0	147.32.83.234	6400.000000	F	dhcp-83-234.felk.cvut.cz	(empty)	(empty)
+1655075784.881638	CF4Glr3mxONH0hS8Db	210.89.161.19	2787	147.32.82.28	53	udp	51877	dhcp-83-234.felk.cvut.cz	1	C_INTERNET	1	A	0	NOERROR	T	F	F	F	0	147.32.83.234	6400.000000	F	dhcp-83-234.felk.cvut.cz	(empty)	(empty)
