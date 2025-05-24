@@ -4,7 +4,7 @@
 Benign windows computer doing normal activities, attacked form the Internet
 
 ## Origin
-This capture is the complete (24hs) first day (Day2) of a capture that was originally named `CTU-Normal-43` and was part of the group of captures of the `CTU-50` dataset that was published separatedly.
+This capture is the complete (24hs) first day (Day1) of a capture that was originally named `CTU-Normal-43` and was part of the group of captures of the `CTU-50` dataset that was published separatedly.
 There are four more days that are included separatedly.
 
 ## Author
