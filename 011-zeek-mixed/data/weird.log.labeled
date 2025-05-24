@@ -1,0 +1,51 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2022-06-17-00-00-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	label	detailedlabel
+#types	time	string	addr	port	addr	port	string	string	bool	string	string	string
+1655074425.378312	CgE5zu2ro2W9i9ZmBi	104.219.251.41	45231	147.32.83.165	5353	DNS_truncated_len_lt_hdr_len	-	F	bro	Malicious	External-Attack-to-Device
+1655084016.486720	C2HokH1eFDfyQUTfd	157.245.102.193	5353	147.32.83.165	5353	DNS_truncated_len_lt_hdr_len	-	F	bro	Malicious	External-Attack-to-Device
+1655089738.193301	CkXUwt3rpxGSrnLh6b	65.49.20.118	54211	147.32.83.165	80	data_before_established	-	F	bro	Malicious	External-Attack-to-Device
+1655089911.862065	CQ976i3Rd7VbXMAZFj	65.49.20.82	41530	147.32.83.165	80	possible_split_routing	-	F	bro	Malicious	External-Attack-to-Device
+1655089911.862065	CQ976i3Rd7VbXMAZFj	65.49.20.82	41530	147.32.83.165	80	data_before_established	-	F	bro	Malicious	External-Attack-to-Device
+1655094997.217450	CKULvd28zfhyqHvZ7	91.201.241.26	36144	147.32.83.165	80	data_before_established	-	F	bro	Malicious	External-Attack-to-Device
+1655097422.501550	CvIqeK3bjfIsez4ggd	147.32.83.165	6881	190.136.50.42	5353	DNS_Conn_count_too_large	-	F	bro	Background	(empty)
+1655105120.323890	CHWg1h47b9TjiVjSmi	113.88.230.195	8082	147.32.83.165	5353	DNS_Conn_count_too_large	-	F	bro	Malicious	External-Attack-to-Device
+1655107007.182049	CxlSuzyrKCn5jiV43	220.132.176.157	37992	147.32.83.165	23	active_connection_reuse	-	F	bro	Malicious	External-Attack-to-Device
+1655108977.330428	CG5USF3fMxsAn6gtAd	157.245.102.193	5353	147.32.83.165	5353	DNS_Conn_count_too_large	-	F	bro	Malicious	External-Attack-to-Device
+1655109197.189888	CntXJW3uUmvi2MADAb	147.32.83.165	1534	8.8.8.8	53	dns_unmatched_reply	-	F	bro	Background	(empty)
+1655109197.193299	C9IFSd2shIK3OkGQ44	147.32.83.165	25177	8.8.8.8	53	dns_unmatched_reply	-	F	bro	Background	(empty)
+1655109197.240412	C69wau1DZRNZCIISp9	147.32.83.165	56887	17.57.146.22	5223	bad_TCP_checksum	-	F	bro	Background	(empty)
+1655109197.430900	CIkMBL3LUcB752MIkd	147.32.83.165	56888	140.82.113.25	443	data_before_established	-	F	bro	Benign	(empty)
+1655109207.023889	CUNGSg2vwUpR6MEBR9	147.32.83.165	56954	17.142.171.6	443	possible_split_routing	-	F	bro	Benign	(empty)
+1655109207.023889	CUNGSg2vwUpR6MEBR9	147.32.83.165	56954	17.142.171.6	443	data_before_established	-	F	bro	Benign	(empty)
+1655109207.678176	Cnznlm21pwKA7zxfbg	147.32.83.165	56960	23.47.208.253	443	possible_split_routing	-	F	bro	Benign	(empty)
+1655109209.181597	CXlZHe3o8jmbTTBvkg	147.32.83.165	56968	17.164.1.41	443	possible_split_routing	-	F	bro	Benign	(empty)
+1655109209.182497	CXlZHe3o8jmbTTBvkg	147.32.83.165	56968	17.164.1.41	443	data_before_established	-	F	bro	Benign	(empty)
+1655109210.371674	Cw2eOa40sjsS3SNWIh	147.32.83.165	56973	44.201.116.124	443	data_before_established	-	F	bro	Benign	(empty)
+1655109211.550242	CpsB5x2W9AlU9trCWi	147.32.83.165	56978	44.201.116.124	443	possible_split_routing	-	F	bro	Benign	(empty)
+1655109239.049316	C06eyJ3aiOpVWWKmud	147.32.83.165	57031	44.201.116.124	443	possible_split_routing	-	F	bro	Benign	(empty)
+1655109239.049316	C06eyJ3aiOpVWWKmud	147.32.83.165	57031	44.201.116.124	443	data_before_established	-	F	bro	Benign	(empty)
+1655109248.160647	CmECs1D5pM8El3h17	147.32.83.165	57037	23.47.208.253	443	data_before_established	-	F	bro	Benign	(empty)
+1655109264.682947	CtZos44Cg3wEXzt5tj	147.32.83.165	57051	23.47.208.253	443	possible_split_routing	-	F	bro	Benign	(empty)
+1655109264.683685	CtZos44Cg3wEXzt5tj	147.32.83.165	57051	23.47.208.253	443	data_before_established	-	F	bro	Benign	(empty)
+1655109264.974829	C5YDyV2SP115zhFB8	147.32.83.165	57053	44.201.116.124	443	data_before_established	-	F	bro	Benign	(empty)
+1655109287.331133	C78UmcCqfpZrtO8U7	147.32.83.165	57060	23.6.115.27	443	possible_split_routing	-	F	bro	Benign	(empty)
+1655109287.331198	ClhLierg247tqdfL7	147.32.83.165	57061	23.6.115.27	443	possible_split_routing	-	F	bro	Benign	(empty)
+1655109287.331567	ClhLierg247tqdfL7	147.32.83.165	57061	23.6.115.27	443	data_before_established	-	F	bro	Benign	(empty)
+1655109287.336988	C9TQj037ag54eR5R5d	147.32.83.165	57059	23.6.115.27	443	TCP_ack_underflow_or_misorder	-	F	bro	Benign	(empty)
+1655109287.337274	ClhLierg247tqdfL7	147.32.83.165	57061	23.6.115.27	443	TCP_ack_underflow_or_misorder	-	F	bro	Benign	(empty)
+1655109287.337354	C78UmcCqfpZrtO8U7	147.32.83.165	57060	23.6.115.27	443	TCP_ack_underflow_or_misorder	-	F	bro	Benign	(empty)
+1655109287.347274	Cj1xpM3uQuUWvPCcEd	147.32.83.165	57062	23.6.115.27	443	data_before_established	-	F	bro	Benign	(empty)
+1655109287.347524	C78UmcCqfpZrtO8U7	147.32.83.165	57060	23.6.115.27	443	data_before_established	-	F	bro	Benign	(empty)
+1655109287.347696	C9TQj037ag54eR5R5d	147.32.83.165	57059	23.6.115.27	443	data_before_established	-	F	bro	Benign	(empty)
+1655109290.182667	C4LDwD1yDU8JDklKK8	147.32.83.165	57082	44.201.116.124	443	possible_split_routing	-	F	bro	Benign	(empty)
+1655109499.585341	CoIGZuAdKhqrXoMF6	147.32.83.165	57131	13.69.239.74	443	possible_split_routing	-	F	bro	Benign	Microsoft
+1655109499.585341	CoIGZuAdKhqrXoMF6	147.32.83.165	57131	13.69.239.74	443	data_before_established	-	F	bro	Benign	Microsoft
+1655109510.342002	CFWXyE2SMGImRonXZg	147.32.83.165	57144	13.69.239.74	443	possible_split_routing	-	F	bro	Benign	Microsoft
+1655109510.342231	CFWXyE2SMGImRonXZg	147.32.83.165	57144	13.69.239.74	443	data_before_established	-	F	bro	Benign	Microsoft
+1655109510.391905	CiYfXj1iCHrY5DYiE2	147.32.83.165	57146	13.69.239.74	443	possible_split_routing	-	F	bro	Benign	Microsoft
+1655109510.393916	CiYfXj1iCHrY5DYiE2	147.32.83.165	57146	13.69.239.74	443	data_before_established	-	F	bro	Benign	Microsoft

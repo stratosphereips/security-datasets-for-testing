@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2022-06-17-00-00-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude	label	detailedlabel
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	set[enum]	interval	bool	string	string	string	double	double	string	string
+1655120854.698827	CYgvPk4M7FuPwRhaZf	147.32.83.165	60618	108.177.119.188	5228	-	-	-	tcp	ProtocolDetector::Protocol_Found	147.32.83.165:60618 > 108.177.119.188:5228 SSL on port 5228/tcp	SSL	147.32.83.165	108.177.119.188	5228	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	Background	(empty)
+1655123135.247953	CnXoiddNVrGDC5v08	147.32.83.165	61651	104.248.253.24	3000	-	-	-	tcp	ProtocolDetector::Protocol_Found	147.32.83.165:61651 > 104.248.253.24:3000 SSL on port 3000/tcp	SSL	147.32.83.165	104.248.253.24	3000	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	Background	(empty)

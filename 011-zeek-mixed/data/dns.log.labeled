@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2022-06-17-00-00-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected	ans_query	label	detailedlabel
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool	vector[string]	string	string
+1655073299.381401	C3Eg5r3ffPjb8Ptzbk	118.193.64.106	36257	147.32.83.165	5353	udp	58112	(empty)	0	qclass-0	0	query-0	-	-	F	F	F	F	7	-	-	F	-	Malicious	External-Attack-to-Device
+1655073299.381405	C3Eg5r3ffPjb8Ptzbk	118.193.64.106	36257	147.32.83.165	5353	udp	58112	(empty)	0	qclass-0	0	query-0	-	-	F	F	F	F	7	-	-	F	-	Malicious	External-Attack-to-Device
+1655073303.399760	CkS9OR2y9Ad2yeLrnh	118.193.64.106	36229	147.32.83.165	5353	udp	0	_services._dns-sd._udp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	-	Malicious	External-Attack-to-Device
+1655073303.399771	CkS9OR2y9Ad2yeLrnh	118.193.64.106	36229	147.32.83.165	5353	udp	0	_services._dns-sd._udp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	-	Malicious	External-Attack-to-Device
