@@ -1,8 +1,0 @@
-#separator \x09
-#set_separator	,
-#empty_field	(empty)
-#unset_field	-
-#path	known_hosts
-#open	2022-06-17-00-00-36
-#fields	ts	host	label	detailedlabel
-#types	time	addr	string	string
