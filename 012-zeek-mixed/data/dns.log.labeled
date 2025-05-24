@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2022-06-17-00-00-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected	ans_query	label	detailedlabel
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool	vector[string]	string	string
+1655946113.904261	CbpdAP1RlLXci9eln4	192.241.220.132	47879	147.32.83.161	53	udp	13551	version.bind	3	C_CHAOS	16	TXT	-	-	F	F	T	F	0	-	-	F	-	Malicious	External-Attack-to-Device
+1655946113.904268	CbpdAP1RlLXci9eln4	192.241.220.132	47879	147.32.83.161	53	udp	13551	version.bind	3	C_CHAOS	16	TXT	-	-	F	F	T	F	0	-	-	F	-	Malicious	External-Attack-to-Device
+1655947014.255174	CT8Jf53eQqToYK0lie	64.62.197.111	54432	147.32.83.161	5353	udp	0	_services._dns-sd._udp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	-	Malicious	External-Attack-to-Device
+1655947014.255184	CT8Jf53eQqToYK0lie	64.62.197.111	54432	147.32.83.161	5353	udp	0	_services._dns-sd._udp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F	-	Malicious	External-Attack-to-Device
+1655955642.342962	CTlpCg2LyHoKSH8oS3	54.197.74.219	60263	147.32.82.28	53	udp	59120	dhcp-83-161.felk.cvut.cz	1	C_INTERNET	1	A	0	NOERROR	T	F	F	F	0	147.32.83.161	6400.000000	F	dhcp-83-161.felk.cvut.cz	(empty)	(empty)
+1655955642.342971	CTlpCg2LyHoKSH8oS3	54.197.74.219	60263	147.32.82.28	53	udp	59120	dhcp-83-161.felk.cvut.cz	1	C_INTERNET	1	A	0	NOERROR	T	F	F	F	0	147.32.83.161	6400.000000	F	dhcp-83-161.felk.cvut.cz	(empty)	(empty)
+1655986732.362334	CCVmipTSUn9S0Iuy5	184.105.247.242	19814	147.32.83.161	53	udp	64206	dnsscan.shadowserver.org	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F	-	Malicious	External-Attack-to-Device
+1655986732.362344	CCVmipTSUn9S0Iuy5	184.105.247.242	19814	147.32.83.161	53	udp	64206	dnsscan.shadowserver.org	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F	-	Malicious	External-Attack-to-Device
+1656014830.734481	CTayHh1SfWtNAcG8vl	45.61.185.196	16374	147.32.83.161	53	udp	61928	sl	1	C_INTERNET	255	*	-	-	F	F	T	F	2	-	-	F	-	Malicious	External-Attack-to-Device
+1656014830.734492	CTayHh1SfWtNAcG8vl	45.61.185.196	16374	147.32.83.161	53	udp	61928	sl	1	C_INTERNET	255	*	-	-	F	F	T	F	2	-	-	F	-	Malicious	External-Attack-to-Device
+1656019804.765085	CXUvCy1PxWdXWSxIt	45.61.185.196	50417	147.32.83.161	53	udp	61928	sl	1	C_INTERNET	255	*	-	-	F	F	T	F	2	-	-	F	-	Malicious	External-Attack-to-Device
+1656019804.765088	CXUvCy1PxWdXWSxIt	45.61.185.196	50417	147.32.83.161	53	udp	61928	sl	1	C_INTERNET	255	*	-	-	F	F	T	F	2	-	-	F	-	Malicious	External-Attack-to-Device

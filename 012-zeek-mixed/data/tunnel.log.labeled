@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	tunnel
+#open	2022-06-17-00-00-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	tunnel_type	action	label	detailedlabel
+#types	time	string	addr	port	addr	port	enum	enum	string	string
+1655945747.271852	CK0v1m4S9cSGN390gg	221.185.70.77	0	147.32.83.161	0	Tunnel::GRE	Tunnel::DISCOVER	(empty)	(empty)
+1655949351.321935	CK0v1m4S9cSGN390gg	221.185.70.77	0	147.32.83.161	0	Tunnel::GRE	Tunnel::EXPIRE	(empty)	(empty)
+1655977553.882548	Cos6Hb3qiJ72fMtNz1	77.39.228.2	0	147.32.83.161	0	Tunnel::GRE	Tunnel::DISCOVER	(empty)	(empty)
+1655981159.472701	Cos6Hb3qiJ72fMtNz1	77.39.228.2	0	147.32.83.161	0	Tunnel::GRE	Tunnel::EXPIRE	(empty)	(empty)
