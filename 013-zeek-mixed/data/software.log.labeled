@@ -1,0 +1,8 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	software
+#open	2022-06-17-00-00-11
+#fields	ts	host	host_p	software_type	name	version.major	version.minor	version.minor2	version.minor3	version.addl	unparsed_version	url	label	detailedlabel
+#types	time	addr	port	enum	string	count	count	count	count	string	string	string	string	string

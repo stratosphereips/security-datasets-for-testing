@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	tunnel
+#open	2022-06-17-00-00-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	tunnel_type	action	label	detailedlabel
+#types	time	string	addr	port	addr	port	enum	enum	string	string
+1655257921.779290	ChN9yr4AtF9EozPzVd	118.18.99.128	0	147.32.85.12	0	Tunnel::GRE	Tunnel::DISCOVER	(empty)	(empty)
+1655261528.231828	ChN9yr4AtF9EozPzVd	118.18.99.128	0	147.32.85.12	0	Tunnel::GRE	Tunnel::EXPIRE	(empty)	(empty)
+1655267255.944046	C41RsH3ReB5BmXbca	128.53.175.199	0	147.32.85.12	0	Tunnel::GRE	Tunnel::DISCOVER	(empty)	(empty)
+1655270858.955921	C41RsH3ReB5BmXbca	128.53.175.199	0	147.32.85.12	0	Tunnel::GRE	Tunnel::EXPIRE	(empty)	(empty)
+1655293180.469456	CpMboC3VVtKw9ZBaEc	121.112.69.136	0	147.32.85.12	0	Tunnel::GRE	Tunnel::DISCOVER	(empty)	(empty)
+1655296788.677888	CpMboC3VVtKw9ZBaEc	121.112.69.136	0	147.32.85.12	0	Tunnel::GRE	Tunnel::EXPIRE	(empty)	(empty)
+1655301552.379208	CXoLbM24B3GZLIva6h	202.75.47.227	0	147.32.85.12	0	Tunnel::GRE	Tunnel::DISCOVER	(empty)	(empty)
+1655305158.860092	CXoLbM24B3GZLIva6h	202.75.47.227	0	147.32.85.12	0	Tunnel::GRE	Tunnel::EXPIRE	(empty)	(empty)
+1655313056.240271	C24bcH3dH1wwEF26ad	77.39.228.2	0	147.32.85.12	0	Tunnel::GRE	Tunnel::DISCOVER	(empty)	(empty)
+1655316659.321914	C24bcH3dH1wwEF26ad	77.39.228.2	0	147.32.85.12	0	Tunnel::GRE	Tunnel::EXPIRE	(empty)	(empty)
+1655321551.582776	CXoLbM24B3GZLIva6h	202.75.47.227	0	147.32.85.12	0	Tunnel::GRE	Tunnel::DISCOVER	(empty)	(empty)
+1655325157.251798	CXoLbM24B3GZLIva6h	202.75.47.227	0	147.32.85.12	0	Tunnel::GRE	Tunnel::EXPIRE	(empty)	(empty)

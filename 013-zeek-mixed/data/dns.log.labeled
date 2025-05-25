@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2022-06-17-00-00-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected	ans_query	label	detailedlabel
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool	vector[string]	string	string
+1655250129.861285	Ckukni3TGW2VbT90uj	45.144.39.175	692	147.32.85.12	53	udp	7247	ripe.net	1	C_INTERNET	255	*	-	-	F	F	T	F	0	-	-	F	-	Malicious	External-Attack-to-Device
+1655250129.861287	Ckukni3TGW2VbT90uj	45.144.39.175	692	147.32.85.12	53	udp	7247	ripe.net	1	C_INTERNET	255	*	-	-	F	F	T	F	0	-	-	F	-	Malicious	External-Attack-to-Device
