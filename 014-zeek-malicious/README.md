@@ -8,6 +8,7 @@
 - [VirusTotal](https://www.virustotal.com/en/file/2f8e39f8e0b3ff745442f07732b059fb11cb354259e841ef9a5374843194e8c1/analysis/)
 - [HybridAnalysis](https://www.hybrid-analysis.com/sample/2f8e39f8e0b3ff745442f07732b059fb11cb354259e841ef9a5374843194e8c1?environmentId=2)
 
+Even though the capture is originally from a malware, there are still some benign connections from the operating systema and browswer.
 
 # IP Addresses
     - Infected host: 192.168.1.115
