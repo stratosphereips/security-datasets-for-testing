@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2017-03-08-13-47-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude	label	detailedlabel
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	set[enum]	interval	bool	string	string	string	double	double	string	string
+276.600697	Cx8yQ24GZlNRG5vl94	192.168.1.115	49158	85.31.204.81	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (certificate is not yet valid)	CN=*.touslesdrivers.com,OU=PositiveSSL Wildcard,OU=Domain Control Validated	192.168.1.115	85.31.204.81	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	Malicious	(empty)
+302.469431	Cvobcw3TA1B4LXll14	192.168.1.115	60006	216.58.201.70	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (certificate is not yet valid)	CN=*.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	192.168.1.115	216.58.201.70	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	Malicious	(empty)
+303.231346	CqN0Er1LkaaomFpZJd	192.168.1.115	60024	54.247.115.15	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (certificate is not yet valid)	CN=*.krxd.net,OU=Domain Control Validated	192.168.1.115	54.247.115.15	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	Malicious	(empty)
+303.729322	C6SjiKqKOcfJF3e1h	192.168.1.115	60026	52.57.198.59	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (certificate is not yet valid)	CN=*.mookie1.com,OU=Techops,O=Xaxis,L=New York,ST=New York,C=US	192.168.1.115	52.57.198.59	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	Malicious	(empty)
+#close	2017-03-08-13-47-21
