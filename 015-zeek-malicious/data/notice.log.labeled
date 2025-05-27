@@ -1,0 +1,33 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2017-03-01-14-28-32
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude	label	detailedlabel
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	set[enum]	interval	bool	string	string	string	double	double	string	string
+88030.292526	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 80/tcp in 0m23s	local	192.168.1.113	-	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+91639.281006	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 80/tcp in 0m25s	local	192.168.1.113	-	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+95249.859069	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 443/tcp in 0m32s	local	192.168.1.113	-	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+98852.471876	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 80/tcp in 0m30s	local	192.168.1.113	-	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+102659.292285	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 8080/tcp in 3m51s	local	192.168.1.113	-	8080	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+106359.101792	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 443/tcp in 0m28s	local	192.168.1.113	-	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+109965.427203	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 443/tcp in 0m30s	local	192.168.1.113	-	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+113581.291058	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 443/tcp in 0m42s	local	192.168.1.113	-	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+117333.280208	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 8080/tcp in 3m4s	local	192.168.1.113	-	8080	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+121076.021119	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 443/tcp in 0m28s	local	192.168.1.113	-	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+124684.750320	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 443/tcp in 0m33s	local	192.168.1.113	-	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+128403.967902	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 8080/tcp in 2m28s	local	192.168.1.113	-	8080	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+132185.604412	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 80/tcp in 0m27s	local	192.168.1.113	-	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+135797.517575	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 443/tcp in 0m35s	local	192.168.1.113	-	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+139538.816772	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 8080/tcp in 2m44s	local	192.168.1.113	-	8080	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+143170.548132	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 8080/tcp in 3m1s	local	192.168.1.113	-	8080	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+146898.087961	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 80/tcp in 0m22s	local	192.168.1.113	-	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+150515.392720	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 443/tcp in 0m37s	local	192.168.1.113	-	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+154244.870904	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 8080/tcp in 2m42s	local	192.168.1.113	-	8080	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+157908.348177	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 8080/tcp in 3m38s	local	192.168.1.113	-	8080	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+161614.386206	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 443/tcp in 0m25s	local	192.168.1.113	-	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+165220.026843	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 443/tcp in 0m24s	local	192.168.1.113	-	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+168826.705929	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 443/tcp in 0m27s	local	192.168.1.113	-	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+172432.390705	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.1.113 scanned at least 25 unique hosts on port 80/tcp in 0m27s	local	192.168.1.113	-	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-	(empty)	(empty)
+#close	2017-03-01-14-37-48
