@@ -1,37 +1,20 @@
+# 013-zeek-mixed
+
 # Description
-- Probable Name: -
-- Description: Benign windows computer doing normal activities
-- MD5: -
-- SHA1: -
-- SHA256: -
-- Password of zip file: -
-- Duration: 5 days
-- Proxy Usage: This capture did not use an intermediate proxy.
+Benign windows computer doing normal activities, attacked form the Internet
 
-# Files
+## Origin
+This capture is the complete (24hs) third day (Day3) of a capture that was originally named `CTU-Normal-45` and was part of the group of captures of the `CTU-50` dataset that was published separatedly.
+There are four more days that are included separatedly.
 
-- zeek_files
-    - Folder with all the Zeek output files
-
-# IP Addresses
-    - Infected host: None
-    - Benign host: 147.32.85.12
-    - Default GW: -
-
-# Timeline
-## Start
+## Author
+The capture was done in the Stratosphere Laboratory, Czech Technical University in Prague, Czech Republic as part of the master [thesis](https://dspace.cvut.cz/bitstream/handle/10467/107647/F3-DP-2023-Janata-Pavel-Master_Thesis_Pavel_Janata.pdf?sequence=-1&isAllowed=y) of Pavel Janata for the [FEEL project](https://github.com/stratosphereips/feel_project) about federated learning.
 
 
-## End
+# Format
+Zeek logs
 
+## Labels
+The capture was supposedly only benign when it was done, but the computer was connected to the Internet so it was attacked. Therefore we label all those attacks correctly.
 
-# Disclaimer 
-These files were generated in the Stratosphere Lab as part of the Malware Capture Facility Project in the CVUT University, Prague, Czech Republic.
-The goal is to store long-lived real botnet traffic and to generate labeled netflows files.
-Any question feel free to contact us:
-Sebastian Garcia: sebastian.garcia@agents.fel.cvut.cz
-
-You are free to use these files as long as you reference this project and the authors as follows:
-Garcia, Sebastian. Malware Capture Facility Project. Retrieved from https://stratosphereips.org
-
-
+The labels are assigned per-flow following the rules described in the file `labels.config` and the program [NetflowLabeler](https://github.com/stratosphereips/netflowlabeler).
