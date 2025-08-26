@@ -1,9 +1,3 @@
-#separator \x09
-#set_separator	,
-#empty_field	(empty)
-#unset_field	-
-#path	reporter
-#open	2018-04-03-20-53-01
-#fields	ts	level	message	location
-#types	time	enum	string	string
-#close	2018-04-03-20-55-23
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f2c591467f9e2bc7dac15172a0d15f658892a19066724952fa3f1136c0de77f
+size 202
