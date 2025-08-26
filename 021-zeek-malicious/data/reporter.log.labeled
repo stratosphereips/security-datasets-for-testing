@@ -1,0 +1,9 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	reporter
+#open	2018-04-03-20-53-01
+#fields	ts	level	message	location	label	detailedlabel
+#types	time	enum	string	string	string	string
+#close	2018-04-03-20-55-23
