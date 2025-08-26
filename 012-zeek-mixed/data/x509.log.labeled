@@ -1,8 +1,3 @@
-#separator \x09
-#set_separator	,
-#empty_field	(empty)
-#unset_field	-
-#path	x509
-#open	2022-06-17-00-00-08
-#fields	ts	id	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	label	detailedlabel
-#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	string	string
+version https://git-lfs.github.com/spec/v1
+oid sha256:055faf5d1bc6d4809a72b008be5d433a9636fba4eafcf28e7acb5a8c79ae701d
+size 659
