@@ -1,9 +1,3 @@
-#separator \x09
-#set_separator	,
-#empty_field	(empty)
-#unset_field	-
-#path	software
-#open	2018-04-03-20-53-01
-#fields	ts	host	host_p	software_type	name	version.major	version.minor	version.minor2	version.minor3	version.addl	unparsed_version	url	label	detailedlabel
-#types	time	addr	port	enum	string	count	count	count	count	string	string	string	string	string
-#close	2018-04-03-20-55-23
+version https://git-lfs.github.com/spec/v1
+oid sha256:61be827387465556bc3ca3b4fd02de4aa4e1a7b5b1979b9e6d8a95408046aee3
+size 383
