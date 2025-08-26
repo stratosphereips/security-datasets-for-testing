@@ -1,0 +1,9 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	snmp
+#open	2022-07-14-15-18-04
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	duration	version	community	get_requests	get_bulk_requests	get_responses	set_requests	display_string	up_since	label	detailedlabel
+#types	time	string	addr	port	addr	port	interval	string	string	count	count	count	count	string	time	string	string
+#close	2022-07-14-15-18-20
