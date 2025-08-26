@@ -1,10 +1,3 @@
-#separator \x09
-#set_separator	,
-#empty_field	(empty)
-#unset_field	-
-#path	http
-#open	2018-04-03-20-53-01
-#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types	label	detailedlabel
-#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	string	string
-637.133955	C64T8o20t5w13HC8Ab	192.168.1.122	49161	195.113.232.72	80	1	GET	www.download.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab	-	1.1	Microsoft-CryptoAPI/6.1	0	53978	200	OK	-	-	(empty)	-	-	-	-	-	-	FTwM273L8UV75iP79f	-	application/vnd.ms-cab-compressed	Benign	Windows
-#close	2018-04-03-20-55-23
+version https://git-lfs.github.com/spec/v1
+oid sha256:13008036a19969aa7cb5e337bc3a7e977bfde25f5b12f6636b4ec6e1964a35e3
+size 1021
