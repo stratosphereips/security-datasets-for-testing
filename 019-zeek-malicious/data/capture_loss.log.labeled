@@ -1,9 +1,3 @@
-#separator \x09
-#set_separator	,
-#empty_field	(empty)
-#unset_field	-
-#path	capture_loss
-#open	2018-04-03-20-53-01
-#fields	ts	ts_delta	peer	gaps	acks	percent_lost	label	detailedlabel
-#types	time	interval	string	count	count	double	string	string
-#close	2018-04-03-20-55-24
+version https://git-lfs.github.com/spec/v1
+oid sha256:8416e1537c3e54099b8026936783920be8723dd6dd9dade03f1e37f6764f5d06
+size 269

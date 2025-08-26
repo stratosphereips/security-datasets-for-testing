@@ -1,11 +1,3 @@
-#separator \x09
-#set_separator	,
-#empty_field	(empty)
-#unset_field	-
-#path	dpd
-#open	2018-04-03-20-53-04
-#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason	label	detailedlabel
-#types	time	string	addr	port	addr	port	enum	string	string	string	string
-242280.371240	CZJd9bj71erblgz5h	192.168.1.103	5353	224.0.0.251	5353	udp	DNS	DNS_Conn_count_too_large	Benign	Windows
-243374.531156	CF8ISG2ClXvy3Im1Zc	192.168.1.103	5353	224.0.0.251	5353	udp	DNS	DNS_Conn_count_too_large	Benign	Windows
-#close	2018-04-03-20-55-24
+version https://git-lfs.github.com/spec/v1
+oid sha256:dfd9e3f7348ed57420e908c74bb275cd3dfb8e59bdec66e4fcbc3e7114c46d9b
+size 541
