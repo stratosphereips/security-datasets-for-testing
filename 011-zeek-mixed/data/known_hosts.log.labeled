@@ -1,8 +1,3 @@
-#separator \x09
-#set_separator	,
-#empty_field	(empty)
-#unset_field	-
-#path	known_hosts
-#open	2022-06-17-00-00-36
-#fields	ts	host	label	detailedlabel
-#types	time	addr	string	string
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2953b1b1ec742022a5daf26c8f006124f354b503eed7a82674ef60666bc4497
+size 180
