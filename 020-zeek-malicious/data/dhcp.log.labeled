@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dhcp
+#open	2018-04-03-20-53-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	mac	assigned_ip	lease_time	trans_id	label	detailedlabel
+#types	time	string	addr	port	addr	port	string	addr	interval	count	string	string
+328498.102171	CuiJzf41HOjqmUV2Z9	255.255.255.255	68	192.168.1.1	67	08:11:96:fb:7c:44	192.168.1.178	43200.000000	1986445091	Background	(empty)
+339516.996935	CE03Rg1NLMNTr0sby5	255.255.255.255	68	192.168.1.1	67	c4:85:08:7c:47:19	192.168.1.249	43200.000000	2755074212	Background	(empty)
+340369.497030	CYybu84z44Rpur4At2	255.255.255.255	68	192.168.1.1	67	c4:85:08:7c:47:19	192.168.1.249	43200.000000	3611867280	Background	(empty)
+340370.547690	CYybu84z44Rpur4At2	255.255.255.255	68	192.168.1.1	67	c4:85:08:7c:47:19	192.168.1.249	43200.000000	902482217	Background	(empty)
+342642.868903	C0Nbfw4vhK3HdNpkT2	255.255.255.255	68	192.168.1.1	67	c4:85:08:7c:47:19	192.168.1.249	43200.000000	302096497	Background	(empty)
+#close	2018-04-03-20-55-24
