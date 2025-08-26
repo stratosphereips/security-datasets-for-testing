@@ -1,9 +1,3 @@
-#separator \x09
-#set_separator	,
-#empty_field	(empty)
-#unset_field	-
-#path	stats
-#open	2018-04-03-20-53-01
-#fields	ts	peer	mem	pkts_proc	bytes_recv	pkts_dropped	pkts_link	pkt_lag	events_proc	events_queued	active_tcp_conns	active_udp_conns	active_icmp_conns	tcp_conns	udp_conns	icmp_conns	timers	active_timers	files	active_files	dns_requests	active_dns_requests	reassem_tcp_size	reassem_file_size	reassem_frag_size	reassem_unknown_size	label	detailedlabel
-#types	time	string	count	count	count	count	count	interval	count	count	count	count	count	count	count	count	count	count	count	count	count	count	count	count	count	count	string	string
-#close	2018-04-03-20-55-24
+version https://git-lfs.github.com/spec/v1
+oid sha256:a89a894d30567788f4619123356af5afab6b3e8909ee7d2174f241f1ba892f29
+size 661
