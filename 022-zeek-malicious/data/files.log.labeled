@@ -1,13 +1,3 @@
-#separator \x09
-#set_separator	,
-#empty_field	(empty)
-#unset_field	-
-#path	files
-#open	2022-07-14-15-17-50
-#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size	label	detailedlabel
-#types	time	string	set[addr]	set[addr]	set[string]	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count	string	string
-17.618083	FJ2X7WTEPmlwWz94l	195.113.232.73	192.168.1.113	CsbZaTu3TzWCN1GMi	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	14	14	0	0	F	-	cd5a4d3fdd5bffc16bf959ef75cf37bc	33bf88d5b82df3723d5863c7d23445e345828904	-	-	-	-	Benign	Windows
-1903.625960	FFYcCD2U6I11kfbUvf	184.73.220.206	192.168.1.113	CE7fw52I2h0LUSYp3b	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	12	12	0	0	F	-	0c5c258d5e3f61465433a3589839631a	c7735b9fa7d40504210717923cd293b7a39ddd77	-	-	-	-	Malicious	CC
-2101.574292	FgdLHe1oW8oT2nsi2d	192.35.177.64	192.168.1.113	CP6ddN1vui5RkhZ6db	HTTP	0	SHA1,MD5	-	-	0.000000	-	F	893	893	0	0	F	-	d4ae187b4574036c2d76b6df8a8c1a30	b06f409fa14bab33cbaf4a37811b8740b624d9e5	-	-	-	-	Malicious	(empty)
-2102.208521	FMfGzR15ykmRpnbdSh	195.113.232.72	192.168.1.113	C3BnLNh9IUYPJt4zc	HTTP	0	SHA1,MD5	application/vnd.ms-cab-compressed	-	0.001296	-	F	53978	53978	0	0	F	-	03f9e1f45c0d5fe8e08af7449ba1fa2f	da545c3133a914434cce940bae78d8ad180a529a	-	-	-	-	Malicious	(empty)
-#close	2022-07-14-15-18-20
+version https://git-lfs.github.com/spec/v1
+oid sha256:365217d04d5d073f79be692d4dcca9d140e629406ffb5dc5dd3d0c11bbf6e3fa
+size 1544
