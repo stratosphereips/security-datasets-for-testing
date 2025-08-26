@@ -1,0 +1,9 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	loaded_scripts
+#open	2018-04-03-20-53-01
+#fields	name	label	detailedlabel
+#types	string	string	string
+#close	2018-04-03-20-55-23
