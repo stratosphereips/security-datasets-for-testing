@@ -1,9 +1,3 @@
-#separator \x09
-#set_separator	,
-#empty_field	(empty)
-#unset_field	-
-#path	dpd
-#open	2018-04-03-20-53-04
-#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason	label	detailedlabel
-#types	time	string	addr	port	addr	port	enum	string	string	string	string
-#close	2018-04-03-20-55-24
+version https://git-lfs.github.com/spec/v1
+oid sha256:76447a8035da0057e4120fd994ce1753516c549f620c1976962caf2784abc2b0
+size 308
