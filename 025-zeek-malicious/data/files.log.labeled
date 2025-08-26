@@ -1,9 +1,3 @@
-#separator \x09
-#set_separator	,
-#empty_field	(empty)
-#unset_field	-
-#path	files
-#open	2022-07-14-15-17-50
-#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size	label	detailedlabel
-#types	time	string	set[addr]	set[addr]	set[string]	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count	string	string
-#close	2022-07-14-15-18-20
+version https://git-lfs.github.com/spec/v1
+oid sha256:75a9fc3c46dab574b82e077c85adb6642435e5ba61cf9c17def301b191101bdd
+size 596

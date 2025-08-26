@@ -1,12 +1,3 @@
-#separator \x09
-#set_separator	,
-#empty_field	(empty)
-#unset_field	-
-#path	x509
-#open	2022-07-14-15-17-50
-#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert	label	detailedlabel
-#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool	string	string
-264026.377566	9892eba57957417899289eb94af6f2314f59b098c59e14fead0365bc47f372f6	3	04B8326FA10D91F09339A2B6538A68E1B415	CN=lucomorye.ru	CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US	1516731998.000000	1524504398.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	lucomorye.ru,www.lucomorye.ru	-	-	-	F	-	T	F	Malicious	(empty)
-265310.241506	af985329fc627561f1ea68a97f7d00caddfaea0842883582fef0b362b79ea4a3	3	EF9BB18BA133F78E	CN=n.pak.bill	CN=n.pak.bill	1517807494.000000	1833167494.000000	rsaEncryption	sha256WithRSAEncryption	rsa	1024	65537	-	-	-	-	-	T	-	T	F	Malicious	(empty)
-265311.699732	d6a44fa89c9da1a30588188698e79ec0a87fe810e5e009cd9240f695a7d83138	3	03367364290C2D7B6D88CA546D924EB64701	CN=green-truck.ru	CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US	1518730651.000000	1526503051.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	green-truck.ru	-	-	-	F	-	T	F	Malicious	(empty)
-#close	2022-07-14-15-18-20
+version https://git-lfs.github.com/spec/v1
+oid sha256:2edb8c0c1fe83ad4b90317303381012b8e34ef235c713fa65dad3c8ca9215f1d
+size 1640

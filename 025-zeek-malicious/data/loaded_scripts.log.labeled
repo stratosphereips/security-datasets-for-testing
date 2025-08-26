@@ -1,9 +1,3 @@
-#separator \x09
-#set_separator	,
-#empty_field	(empty)
-#unset_field	-
-#path	loaded_scripts
-#open	2022-07-14-15-17-50
-#fields	name	label	detailedlabel
-#types	string	string	string
-#close	2022-07-14-15-18-20
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d0a67b62376ce2a0984a054eaf961e2e333cf0a2d9c01c6c585ccfb0e9c2e7a
+size 203
