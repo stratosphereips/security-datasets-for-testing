@@ -1,9 +1,3 @@
-#separator \x09
-#set_separator	,
-#empty_field	(empty)
-#unset_field	-
-#path	packet_filter
-#open	2022-07-14-15-17-50
-#fields	ts	node	filter	init	success	label	detailedlabel
-#types	time	string	string	bool	bool	string	string
-#close	2022-07-14-15-18-20
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf637f4c5783a9225e7929feebfb0b22aaa26964228db8405483ab6aac0b70ed
+size 247
