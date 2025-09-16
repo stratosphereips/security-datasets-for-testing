@@ -5,7 +5,7 @@
 - MD5: 6164228ed2cc0eceba9ce1828d87d827
 - SHA1: cea5bc473c948a78ce565b6e195e6e25f029c0c6
 - SHA256: 7fa83f0588f0f50d0635313918137c05cb59aa672d842f864073aebb72c66195
-- Original capture name: CTU-Malware-Capture-Botnet-346-2, Day3
+- Original capture name: CTU-Malware-Capture-Botnet-346-1, Day3
 - Length: 1day
 
 Even though the capture is originally from a malware, there are still some benign connections from the operating systema and browswer.
