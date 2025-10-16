@@ -3,6 +3,10 @@
 
 This repository contains a set of security datasets for testing of tools and algorithms.
 
+## Requirements
+
+Install Git Large File Storage: https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage
+
 ## Add this repository as a sub-module
 
 To add this repository in yours as a sub-module with the name `dataset`, run the following command:
